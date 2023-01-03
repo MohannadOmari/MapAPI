@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css" />
+    <script type="module" src="./javascripts/index.js"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div id="map"></div>
+    </div>
+    
+    <div class="d-flex justify-content-center">
+        <input id="searchInput" type="search" class="rounded" placeholder="City" />
+        <button id="searchBtn" type="button" class="btn btn-outline-primary">search</button>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfv5GOa28oD8JiMkDNCd4xjtr9gWCHYYw&callback=initMap" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
