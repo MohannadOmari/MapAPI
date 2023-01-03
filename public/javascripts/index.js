@@ -10,7 +10,7 @@ function initMap() {
 
 window.initMap = initMap;
 
-$("#map").ready(function() {
+$(document).ready(function() {
   $(".loader-wrapper").fadeOut("slow");
 });
 
